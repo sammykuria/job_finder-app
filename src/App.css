@@ -1,4 +1,23 @@
 .trexcontainer{
+  padding: 10px;
+  margin: 20px;
   display: flex;
   justify-content: space-around;
+}
+.pages ul li a{
+text-decoration: none;
+color: blue;
+}
+.pages ul li {
+  list-style: none;
+}
+.pages ul {
+  display: flex;
+  gap: 3rem;
+  
+}
+.infinitylink{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }

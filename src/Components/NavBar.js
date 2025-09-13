@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 function NavBar() {
   return (
     <div>
-      <h2>This is Navbar</h2>
 
       <div className='trexcontainer'> 
         <div className='header'>
@@ -31,11 +30,11 @@ function NavBar() {
 
         <div className='infinitylink'>
           <Link>
-          <p>Login</p>
+          <button className='lion'>Login</button>
           </Link>
 
           <Link>
-          <button>Sign in</button>
+          <button className='huncho'>Sign in</button>
           </Link>
          
            
