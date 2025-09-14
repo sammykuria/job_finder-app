@@ -1,12 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+
+*{
+    font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+
 .trexcontainer{
   padding: 10px;
   margin: 20px;
   display: flex;
+  align-items: center;
   justify-content: space-around;
 }
 .pages ul li a{
 text-decoration: none;
-color: blue;
+color: #1db4e7df;
 }
 .pages ul li {
   list-style: none;
@@ -20,4 +33,77 @@ color: blue;
   display: flex;
   align-items: center;
   gap: 2rem;
+}
+.infinitylink a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+.huncho{
+    background: linear-gradient(135deg, #bae6f58f, #66d8f2cc, #4bf648c3);
+border: none;
+border-radius: 50px;
+padding: 15px 20px 13px 20px ;
+}
+
+.bigshak{
+  background: linear-gradient(135deg, #bae6f58f, #66d8f2cc, #4bf648c3);
+  border-radius: 20px;
+  height: 50vh;
+  margin: 20px;
+  padding: 30px;
+text-align: center;
+margin-bottom: 40px;
+}
+.bigsharkcontent h2{
+  font-size: 70px;
+}
+.bigsharkcontent p{
+  font-size: 60px;
+}
+
+/* From Uiverse.io by adamgiebl */ 
+.input-wrapper input {
+  background-color: #eee;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 13em;
+  border-radius: 1rem;
+  color: lightcoral;
+  box-shadow: 0 0.4rem #dfd9d9;
+  cursor: pointer;
+}
+
+.input-wrapper input:focus {
+  outline-color: lightcoral;
+}
+
+.listjobs{
+  display: flex;
+  gap: 0.6rem;
+  font-weight: 600;
+}
+.jobhomecontainer{
+  display: flex;
+  justify-content: space-around;
+}
+.morejob{
+  display: flex;
+justify-content: space-around;  
+margin-top: 5%;
+}
+.morejob h2{
+  font-size: 45px;
+   font-family: "Tinos", serif;
+ font-weight: 500;
+}
+.morejob button{
+  font-size: 20px;
+  background: linear-gradient(135deg, #bae6f5bf, #66d8f2, #4bf648bf);
+  border: none;
+  width: 10%;
+  padding: 20px;
+  border-radius: 50px;
+  
 }

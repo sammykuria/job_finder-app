@@ -30,11 +30,11 @@ function NavBar() {
 
         <div className='infinitylink'>
           <Link>
-          <button className='lion'>Login</button>
+          <p className='lion'>Post a Job</p>
           </Link>
 
           <Link>
-          <button className='huncho'>Sign in</button>
+          <button className='huncho'>Login/Sign in</button>
           </Link>
          
            
