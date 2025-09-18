@@ -40,14 +40,14 @@ color: #1db4e7df;
   font-size: 17px;
 }
 .huncho{
-    background: linear-gradient(135deg, #bae6f58f, #66d8f2cc, #4bf648c3);
-border: none;
-border-radius: 50px;
-padding: 15px 20px 13px 20px ;
+  /* background: linear-gradient(135deg, #bae6f58f, #66d8f29b, #4bf6484f); */
+border: 1px solid;
+padding: 12px 20px 12px 20px ;
+background-color: inherit;
 }
 
 .bigshak{
-  background: linear-gradient(135deg, #bae6f58f, #66d8f2cc, #4bf648c3);
+  background: linear-gradient(135deg, #bae6f58f, #66d8f29b, #4bf6484f);
   border-radius: 20px;
   height: 50vh;
   margin: 20px;
@@ -60,6 +60,28 @@ margin-bottom: 40px;
 }
 .bigsharkcontent p{
   font-size: 60px;
+}
+
+.cardcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  
+}
+.bwoyyh{
+  text-align: center;
+  margin: 4%;
+}
+
+.cardy{
+  max-width: calc(33.333% - 20px);
+  background-color: rgba(227, 221, 210, 0.107);
+  display: flex;
+  flex: 1 1 calc(33.33% - 20px);
+  border-radius: 20px;
+  padding: 10px;
+  align-items: center;
 }
 
 /* From Uiverse.io by adamgiebl */ 
@@ -99,11 +121,68 @@ margin-top: 5%;
  font-weight: 500;
 }
 .morejob button{
-  font-size: 20px;
+  font-size: 17px;
   background: linear-gradient(135deg, #bae6f5bf, #66d8f2, #4bf648bf);
   border: none;
-  width: 10%;
-  padding: 20px;
+  padding: 10px;
   border-radius: 50px;
-  
+}
+.morejobbutt{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.morejobbutt h3{
+  font-size: 16px;
+}
+span{
+  color: rgba(128, 128, 128, 0.509);
+}
+.listjobs{
+  color: rgba(128, 128, 128, 0.509);
+}
+
+
+.jobcardcontainer {
+  display: flex;
+  flex-wrap: wrap; /* ✅ allows multiple rows */
+  gap: 1rem; /* ✅ space between cards */
+  justify-content: space-between; /* ✅ even spacing */
+  margin-top: 1rem;
+}
+
+.jobcardgood {
+  flex: 1 1 calc(25% - 1rem); /* ✅ 4 cards per row */
+  max-width: calc(25% - 1rem); /* ✅ prevent stretching too wide */
+  background: linear-gradient(135deg, #bae6f5bf, #66d8f2, #4bf648bf);
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  min-height: 180px;
+}
+
+.showsome {
+  margin-top: 0.5rem;
+  background: #0d6efd;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.showsome:hover {
+  background: #004aad;
+}
+
+.magnifyimg{
+  width: 10%;
+  border-radius: 20px;
+  background-color: rgba(150, 191, 208, 0.095);
+  margin: 8px;
+  padding: 10px;
 }
