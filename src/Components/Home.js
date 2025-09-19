@@ -67,18 +67,12 @@ function Home() {
 
         <div>
 
-          <div className='morejob'>
-            <h2>Discover Recent Job Openings </h2>
-            <div className='morejobbutt'>
-              <h3><span>Sorted by: </span>last Update</h3>
-              <button>See More</button>
-            </div>
-          </div>
+        
 
 
           <div className='ogboy'>
             <div className='bwoyyh'>
-                <h2  >Popular Job Categories</h2>
+                <h2>Popular Job Categories</h2>
             <p>Find the Job that's perfect for you.About 200+ new jobs everyday</p>
             </div>
           
@@ -86,7 +80,7 @@ function Home() {
               <div className='cardy'>
                 <img className='magnifyimg' src='/magnify.png'alt='wagwan'></img>
                 <div className='cardybody'>
-                  <h2>UI/UX design</h2>
+                  <h2>Information Technology(IT)</h2>
                   <p>433 jobs available</p>
                 </div>
               </div>
@@ -102,7 +96,7 @@ function Home() {
                 <div className='cardy'>
           <img className='magnifyimg' src='/magnify.png'alt='wagwan'></img>
                 <div className='cardybody'>
-                  <h2>UI/UX design</h2>
+                  <h2>HealthCare</h2>
                   <p>433 jobs available</p>
                 </div>
               </div>
@@ -111,7 +105,7 @@ function Home() {
                 <div className='cardy'>
         <img className='magnifyimg' src='/magnify.png'alt='wagwan'></img>
                 <div className='cardybody'>
-                  <h2>UI/UX design</h2>
+                  <h2>Finance</h2>
                   <p>433 jobs available</p>
                 </div>
               </div>
@@ -120,16 +114,16 @@ function Home() {
                 <div className='cardy'>
  <img className='magnifyimg' src='/magnify.png'alt='wagwan'></img>
                 <div className='cardybody'>
-                  <h2>UI/UX design</h2>
+                  <h2>Business</h2>
                   <p>433 jobs available</p>
                 </div>
               </div>
 
 
                 <div className='cardy'>
- <img className='magnifyimg' src='/magnify.png'alt='wagwan'></img>
+       <img className='magnifyimg' src='/magnify.png'alt='wagwan'></img>
                 <div className='cardybody'>
-                  <h2>UI/UX design</h2>
+                  <h2>Engineering</h2>
                   <p>433 jobs available</p>
                 </div>
               </div>
@@ -140,7 +134,13 @@ function Home() {
 
 
 
-
+  <div className='morejob'>
+            <h2>Discover Recent Job Openings </h2>
+            <div className='morejobbutt'>
+              <h3><span>Sorted by: </span>last Update</h3>
+              <button>See More</button>
+            </div>
+          </div>
 
 
 

@@ -73,7 +73,13 @@ margin-bottom: 40px;
   text-align: center;
   margin: 4%;
 }
-
+.bwoyyh h2{
+  font-size: 50px;
+}
+.bwoyyh p{
+  font-size: 12px;
+  color: rgba(128, 128, 128, 0.645);
+}
 .cardy{
   max-width: calc(33.333% - 20px);
   background-color: rgba(227, 221, 210, 0.107);
@@ -185,4 +191,43 @@ span{
   background-color: rgba(150, 191, 208, 0.095);
   margin: 8px;
   padding: 10px;
+}
+
+.jobheader{
+  text-align: center;
+  margin: 2%;
+  padding: 2%;
+}
+.jobheader h2{
+font-size: 70px;
+}
+.searchinput{
+  margin-top: 5%;
+}
+
+/* From Uiverse.io by alexruix */ 
+.input {
+  width: 40%;
+  height: 3%;
+  background-color: #05060f0a;
+border-radius: 30px; 
+ padding: 25px;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+.input-group{
+display: flex;
+justify-content: center;
+}
+
+
+
+input:hover, .input:focus, .input-group:hover .input {
+  outline: none;
+  border-color: #05060f;
+}
+
+input-group:hover .label, .input:focus {
+  color: #05060fc2;
 }

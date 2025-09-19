@@ -14,13 +14,11 @@ function NavBar() {
         <div className='pages'>
             <ul>
                 <li>
-                    <Link>Home</Link>
+                    <Link to='/'>Home</Link>
                 </li>
+               
                 <li>
-                    <Link>About Us</Link>
-                </li>
-                <li>
-                    <Link>Find Jobs</Link>
+                    <Link to='/jobs'>Find Jobs</Link>
                 </li>
                 <li>
                     <Link>Career Advise</Link>
