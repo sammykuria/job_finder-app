@@ -231,3 +231,25 @@ input:hover, .input:focus, .input-group:hover .input {
 input-group:hover .label, .input:focus {
   color: #05060fc2;
 }
+
+.jobsearchbuttons ul{
+display: flex;
+justify-content: flex-start;
+gap: 4rem;
+margin-top: 3%;
+margin-left: 10%;
+}
+
+.jobsearchbuttons ul li a{
+  text-decoration: none;
+  color: black;
+}
+.jobsearchbuttons ul li {
+  list-style: none;
+}
+.jobsearchbuttons ul li button{
+  background-color: inherit;
+  border:  1px solid black;
+  padding: 6px 13px;
+  color: black;
+}
